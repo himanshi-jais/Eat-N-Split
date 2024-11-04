@@ -23,12 +23,7 @@ function App() {
       image: "https://i.pravatar.cc/48?u=499476",
       balance: 0,
     },
-    // {
-    //   id: 499477,
-    //   name: "Elina",
-    //   image: "https://i.pravatar.cc/48?u=499477",
-    //   balance: 9,
-    // },
+  
   ];
   const [friendlist, setfriendlist] = useState(initialFriends);
   const [selectedFriend, setSelectedFriend] = useState(false);

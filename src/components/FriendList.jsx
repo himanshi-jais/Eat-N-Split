@@ -35,7 +35,7 @@ function FriendList({
       balance: 0,
     };
     setfriendlist((prevList) => [...prevList, newFriend]);
-    // console.log(friendlist);
+   
     setformData({ friendName: "", imageUrl: "" });
     setShowAddfriend(false);
   };
